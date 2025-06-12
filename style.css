@@ -395,6 +395,81 @@ h3 {
             line-height: 1.6;
             opacity: 0.95;
         }
+.social-links {
+  display: flex;
+  justify-content: center; /* center buttons horizontally */
+  gap: 20px;               /* space between buttons */
+  margin-top: 20px;        /* spacing above buttons */
+}
+
+/* Styling for buttons */
+.btn-secondary {
+  background-color: #007acc; /* deep blue */
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none; /* removes underline from links */
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background-color: #005fa3; /* darker blue on hover */
+  text-decoration: none;
+}
+
+
+
+ .certifications-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.certifications-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.cert-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+max-width: 1500px;
+  margin: 0 auto;
+}
+
+.cert-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.cert-item h3 a {
+  font-size: 1.1rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.cert-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.cert-item ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.cert-item ul li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
 
 /* Services Section */
 .services-grid {
